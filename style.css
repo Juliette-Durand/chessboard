@@ -1,0 +1,35 @@
+.container {
+    background-color: #F3F3F3;
+    justify-content: center;
+}
+
+@media (min-width:640px) {
+    .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+
+.chess_container {
+    display:grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(9,1fr);
+    text-align: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.white_square {
+    background-color:blanchedalmond;
+    border: solid black 1px;
+    aspect-ratio: 1/1;
+}
+
+.black_square {
+    background-color: black;
+    border: solid black 1px;
+    aspect-ratio: 1/1;
+
+}
